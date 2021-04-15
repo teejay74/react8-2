@@ -25,6 +25,7 @@ export default function useJsonFetch(url) {
             }
         }
         fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
         
     return [data, loading, error]

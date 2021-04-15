@@ -1,6 +1,7 @@
 import useJsonFetch from '../hooks/useJsonFetch';
 
 export default function Loading() {
+    // eslint-disable-next-line no-unused-vars
     const [data, loading, error] = useJsonFetch('http://localhost:7070/loading');
 
     return (
