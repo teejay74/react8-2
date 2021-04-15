@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+
+.Data, .Error, .Loading {
+  border: 1px solid black;
+}
